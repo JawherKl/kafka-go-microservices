@@ -8,12 +8,8 @@ This project demonstrates how to build Kafka Producers and Consumers using the G
 2. [Prerequisites](#prerequisites)
 3. [Installation](#installation)
 4. [Project Structure](#project-structure)
-5. [Kafka Producer](#kafka-producer)
-6. [Kafka Consumer](#kafka-consumer)
-7. [Running the Application](#running-the-application)
-8. [Additional Resources](#additional-resources)
-9. [Contributing](#contributing)
-10. [License](#license)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ## Introduction
 
