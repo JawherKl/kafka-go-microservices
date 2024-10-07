@@ -1,0 +1,47 @@
+run the kafka and zookeeper container
+	cd ~/Documents/kafka-topics
+	sudo docker exec -it kafka /bin/sh
+
+commande in kafka container $:
+first terminal:
+	cd opt/kafka_2.12-2.3.0/bin
+to create topics:
+	kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic quickstart
+to create message:
+	kafka-console-producer.sh --topic quickstart --broker-list localhost:9092
+
+seconde terminale:
+to read the messages:
+	kafka-console-consumer.sh --topic quickstart --from-beginning --bootstrap-server localhost:9092
+	
+	
+now on project kafka-golang:
+first terminal: to create messages
+	cd  ~/Documents/kafka-topics/order-service
+	go build -o out/order main.go && ./out/order
+	
+second terminal: to read messages
+	cd ../product-service
+	go build -o out/product main.go && ./out/product
+	
+theard terminal: to read messages
+	cd ../user-service
+	go build -o out/user main.go && ./out/user
+	
+	
+
+backend framework tech:
+	-spring boot -quarkus -symfony -laravel -express -gogin -django
+	
+frontend framework tech:
+	-angular -reactjs
+	
+mobile framework tech:
+	-flutter -android-studio
+
+database tech:
+	-postgres -mysql -mongodb -couchbase -firebase
+
+devops tech:
+	-rundeck -kafka -portainer -docker -k8s-lens
+	-datadog -matomo -graphana -elk stack
