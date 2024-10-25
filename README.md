@@ -12,20 +12,16 @@ This project demonstrates how to build Kafka Producers and Consumers using the G
 6. Contributing
 
 ## 1. Introduction
-
 This project provides a simple example of how to create Kafka producers and consumers using Golang. Producers are responsible for sending data (messages) to Kafka topics, while consumers subscribe to Kafka topics to read and process messages. 
 
 ## 2. Prerequisites
-
 Before running the project, ensure you have the following:
-
 - [Go](https://golang.org/doc/install) installed (version 1.16 or later)
 - [Kafka](https://kafka.apache.org/quickstart) installed and running on your local machine or server
 - A working knowledge of Kafka and Go
 - Confluent's Kafka Go client library: [confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go)
 
 ## 3. Installation
-
    ```bash
    git clone https://github.com/yourusername/kafka-go-producer-consumer.git
    cd kafka-go-producer-consumer
