@@ -32,21 +32,19 @@ Before running the project, ensure you have the following:
    ```
 
 ### 4. Project Structure
-
-    kafka-go-producer-consumer/
-    │
-    ├── order-service          # Kafka Producer implementation
-    ├── product-service          # Kafka Consumer implementation
-    ├── user-service               # Go module definition
-    ├── docker-compose.yml
-    ├── kafka_info.txt
-    └── README.md            # Project documentation
+      kafka-go-producer-consumer/
+      │
+      ├── order-service          # Kafka Producer implementation
+      ├── product-service          # Kafka Consumer implementation
+      ├── user-service               # Go module definition
+      ├── docker-compose.yml
+      ├── kafka_info.txt
+      └── README.md            # Project documentation
 
 ### 5. Additional Resources
-
-    * Kafka Official Documentation
-    * Confluent Kafka Golang Client
-    * Go Official Documentation
+ * Kafka Official Documentation
+ * Confluent Kafka Golang Client
+ * Go Official Documentation
 
 ### 6. Contributing
 
