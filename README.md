@@ -50,9 +50,5 @@ Before running the project, ensure you have the following:
 
 ### Contributing
 
-   Feel free to open issues or submit pull requests if you'd like to contribute to this project. Contributions are welcome and appreciated!     
-
-### License
-
-    This project is licensed under the MIT License - see the LICENSE file for details.
+   Feel free to open issues or submit pull requests if you'd like to contribute to this project. Contributions are welcome and appreciated!
 
