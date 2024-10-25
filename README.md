@@ -4,12 +4,12 @@ This project demonstrates how to build Kafka Producers and Consumers using the G
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Installation](#installation)
-4. [Project Structure](#project-structure)
-5. [Additional Resources](#additional-resources)
-6. [Contributing](#contributing)
+1. Introduction
+2. Prerequisites
+3. Installation
+4. Project Structure
+5. Additional Resources
+6. Contributing
 
 ## 1. Introduction
 
