@@ -43,6 +43,5 @@ Before running the project, ensure you have the following:
  * Go Official Documentation
 
 ### 6. Contributing
-
-   Feel free to open issues or submit pull requests if you'd like to contribute to this project. Contributions are welcome and appreciated!
+Feel free to open issues or submit pull requests if you'd like to contribute to this project. Contributions are welcome and appreciated!
 
