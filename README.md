@@ -3,7 +3,6 @@
 This project demonstrates how to build Kafka Producers and Consumers using the Go programming language (Golang). It leverages the [confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go) library to connect and interact with Kafka brokers.
 
 ## Table of Contents
-
 1. Introduction
 2. Prerequisites
 3. Installation
